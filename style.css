@@ -1,0 +1,126 @@
+.select2OptionPicker strong {
+  display: block;
+  clear: left;
+  padding-top: 5px;
+}
+
+.select2OptionPicker ul {
+  list-style-type: none;
+  clear: left;
+  margin: 5px;
+  padding: 0;
+}
+
+.select2OptionPicker li, .select2OptionPicker a {
+  float: left;
+}
+
+.select2OptionPicker li {
+  margin: 0 0 5px 0;
+}
+
+.select2OptionPicker li a,
+.select2OptionPicker .limited a,
+.select2OptionPicker .disabled {
+  border: 1px solid #c0c0c0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.select2OptionPicker li:last-child {
+  margin-right: 0;
+}
+
+.select2OptionPicker a {
+  color: #3c89c8;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.select2OptionPicker .disabled span {
+  padding: 4px;
+  display: block;
+  font-size: 15px;
+  min-width: 37px;
+}
+
+.select2OptionPicker a:hover,
+.select2OptionPicker .picked {
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+.select2OptionPicker .limited a,
+.select2OptionPicker .disabled {
+  text-align: center;
+}
+
+.select2OptionPicker .disabled {
+  border: 1px solid #d1d1d1;
+  color: #999;
+}
+
+.select2OptionPicker .disabled .picked {
+  border: 1px solid #EAFF00;
+}
+/*custom*/
+.select2OptionPicker li
+{
+  /*margin-right: 1px !important;*/
+}
+
+.select2OptionPicker a
+{
+  font-size: 11px !important;
+  background: #555 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+  margin-right:2px !important;
+  display:block;
+}
+
+.select2OptionPicker a:hover
+{
+  background: #333 !important;
+}
+
+.select2OptionPicker a.picked
+{
+  background: #2B8CC4 !important;
+  border-color:#005EA5 !important;
+}
+
+.select2OptionPicker a.picked:hover
+{
+  background: #2B8CC4 !important;
+}
+
+.select2OptionPicker li.roles,
+.select2OptionPicker li.history,
+.select2OptionPicker li.preview,
+.select2OptionPicker li.tagging,
+.select2OptionPicker li.layouts,
+.select2OptionPicker li.conditions,
+.select2OptionPicker li.divider,
+.sq-backend-main-header-top
+{
+  display: none !important;
+}
+
+#asset_map_container .tree
+{
+  background-color: #f9ffff !important;
+  color: #353333 !important;
+}
+
+#asset_map_container .tree *
+{
+  font-size: 12px !important;
+}
+
+body
+{
+  font-family:Helvetica !important;
+}
